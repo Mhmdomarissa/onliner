@@ -7,7 +7,14 @@
     <title>@yield('title','Unknown page')</title>
 </head>
 <body>
+    {{-- Start Nav bar  --}}
+    @include('layout.navbar')
+    {{-- end nav bar  --}}
     @yield('content')
-    
+
+
+
+    @include('layout.sidebar')
+
 </body>
 </html>

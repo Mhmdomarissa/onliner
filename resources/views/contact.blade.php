@@ -20,5 +20,11 @@
     </div>
 
 @endsection
+
+@section('sidebar')
+    @parent
+    this is sidebar from contact me page 
+    
+@endsection
     
     
