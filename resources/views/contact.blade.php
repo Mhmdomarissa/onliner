@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,4 +10,15 @@
     <h1>{{ $page_name }}</h1>
     <p>{{$page_description}}</p>
 </body>
-</html>
+</html> --}}
+@extends('layout.master')
+@section('title','Contact Me')
+@section('content')
+    <div class="container">
+        <h1>{{ $page_name }}</h1>
+        <p>{{$page_description}}</p>
+    </div>
+
+@endsection
+    
+    
