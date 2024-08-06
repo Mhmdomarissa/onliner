@@ -10,5 +10,8 @@ Route::get('/about-me', function () {
     return view('about');
 });
 
-
-Route::view('contact-me',"contact");
+//(uri)
+Route::view('contact-me',"contact",[
+    'page_name' => 'Contact Me page ',
+    'page_description' => "<script> this is description</script>"
+]);

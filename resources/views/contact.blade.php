@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>contact-me</title>
+    <title>{{$page_name}}</title>
 </head>
 <body>
-    welcome to contact me view 
-    
+    <h1>{{ $page_name }}</h1>
+    <p>{{$page_description}}</p>
 </body>
 </html>
